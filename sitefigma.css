@@ -6,7 +6,7 @@
   
 	height: 100%;
 	width: 100%;
-	background-image: url("D:/Documents/1535/сайт радио сейчас/241751440.jpg");
+	background-image: url("../1535-radio/241751440.jpg");
   overflow: hidden;
 }
 .v25_6 {
@@ -697,38 +697,29 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(E:/codes/images_podc/eicon_music_1.png);
+	background-image:url(../1535-radio/icon_music.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 #e39_10 { 
-	opacity:1;
-	width:200px;
-	height:62px;
-	position:absolute;
-	left:328px;
-	top:8px;
-	overflow: hidden;
-}
-#e39_11 { 
 	background-color:rgba(104.00000140070915, 114.0000008046627, 166.00000530481339, 1);
 	opacity:1;
 	width:172px;
 	height:70px;
 	position:absolute;
-	left:28px;
+	left: 350px;
 	top:0px;
-	overflow: hidden;
+  overflow: hidden;
 }
-#e39_11:hover { 
+#e39_10:hover { 
 	background-color:rgba(136,195,209,1);
 	opacity:1;
-	width:172px;
+  width:172px;
 	height:70px;
 	position:absolute;
-	left:28px;
+	left:350px;
 	top:0px;
-	overflow: hidden;
+  overflow: hidden;
 }
 #e39_13 { 
 	color:rgba(0, 0, 0, 1);
@@ -737,7 +728,7 @@
 	height:23px;
 	position:absolute;
 	left:72px;
-	top:22px;
+	top:30px;
 	font-family:Times New Roman;
 	text-align:left;
 	font-size:20px;
@@ -751,14 +742,14 @@
 	position:absolute;
 	left:15px;
 	top:5px;
-	background-image:url(E:/codes/images_podc/eicon_micro_1.png);
+	background-image:url(../1535-radio/icon_micro.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 #e39_15 { 
 	opacity:1;
-	width:185px;
-	height: 62px;
+	width:172px;
+	height: 70px;
 	position:absolute;
 	left:589px;
 	top:8px;
@@ -768,20 +759,20 @@
 	background-color:rgba(104.00000140070915, 114.0000008046627, 166.00000530481339, 1);
 	opacity:1;
 	width:172px;
-	height:70px;
+	height:62px;
 	position:absolute;
-	left:28px;
-	top:0px;
+	left:589px;
+	top:-6px;
 	overflow: hidden;
 }
 #e39_16:hover { 
 	background-color:rgba(136,195,209,1);
 	opacity:1;
 	width:172px;
-	height:70px;
+	height:62px;
 	position:absolute;
-	left:28px;
-	top:0px;
+	left:589px;
+	top:-6px;
 	overflow: hidden;
 }
 #e39_18 { 
@@ -805,7 +796,7 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(E:/codes/images_podc/eicon_feedback_1.png);
+	background-image:url(../1535-radio/icon_feedback.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -843,7 +834,7 @@
 .v34_41 {
   width: 210px;
   height: 150px;
-  background: url("D:/Documents/1535/сайт радио сейчас/e____2_1.png");
+  background: url("../1535-radio/e____2_1.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -887,96 +878,171 @@
   left: 0px;
   overflow: hidden;
 }
-.footer h6{
+.footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*.footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+*/
+.footer hr.small
+{
+  margin:20px 0
+}
+.footer h6
+{
   color:#fff;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
   letter-spacing:2px
-  }
-  .footer a{
-  color: rgba(33,107,124,1);
-  }
-  .footer a:hover
-  {
+}
+.footer a
+{
+  color:#737373;
+}
+.footer a:hover
+{
   color:#3366cc;
   text-decoration:none;
-  }
-  .footer-links
-  {
+}
+.footer-links
+{
   padding-left:0;
   list-style:none
-  }
-  .footer-links li
-  {
+}
+.footer-links li
+{
   display:block
-  }
-  .footer-links a
-  {
+}
+.footer-links a
+{
   color:#737373
-  }
-  .footer-links a:active,.footer-links a:focus,.footer-links a:hover
-  {
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
   color:#3366cc;
   text-decoration:none;
-  }
-  .footer-links.inline li
-  {
+}
+.footer-links.inline li
+{
   display:inline-block
-  }
-  .footer .social-icons
-  {
+}
+.footer .social-icons
+{
   text-align:right
-  }
-  .footer .social-icons a
-  {
+}
+.footer .social-icons a
+{
   width:40px;
   height:40px;
   line-height:40px;
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color: rgba(33,107,124,1);
-  }
-  .copyright-text
-  {
+  background-color:#33353d
+}
+.copyright-text
+{
   margin:0
-  }
-  @media (max-width:991px)
+}
+@media (max-width:991px)
+{
+  .footer [class^=col-]
   {
-    .footer [class^=col-]
-    {
     margin-bottom:30px
-    }
   }
-  @media (max-width:767px)
+}
+@media (max-width:767px)
+{
+  .footer
   {
-    .footer
-    {
     padding-bottom:0
-    }
-    .footer .copyright-text,.footer .social-icons
-    {
-    text-align:center
-    }
   }
-  .social-icons
+  .footer .copyright-text,.footer .social-icons
   {
+    text-align:center
+  }
+}
+.social-icons
+{
   padding-left:0;
   margin-bottom:0;
   list-style:none
-  }
-  .social-icons li
-  {
+}
+.social-icons li
+{
   display:inline-block;
   margin-bottom:4px
-  }
-  .social-icons li.title
-  {
+}
+.social-icons li.title
+{
   margin-right:15px;
   text-transform:uppercase;
   color:#96a2b2;
   font-weight:700;
   font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
   }
 }
