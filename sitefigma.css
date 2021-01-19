@@ -3,7 +3,7 @@
   margin: 0px !important;
 }
 .background {
-  
+
 	height: 100%;
 	width: 100%;
 	background-image: url("../1535-radio/241751440.jpg");
@@ -266,30 +266,6 @@
   left: 270px;
   overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .v37_8 {
   width: 136px;
   height: 11px;
@@ -595,6 +571,27 @@
   opacity: 1;
   text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #e39_0 { 
 	opacity:1;
 	width:100%;
@@ -697,7 +694,7 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(../1535-radio/icon_music.png);
+	background-image:url(../1535-radio/icon-music.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -737,12 +734,12 @@
 }
 #e39_14 { 
 	opacity:1;
-	width:30px;
+	width:60px;
 	height:62px;
 	position:absolute;
-	left:15px;
-	top:5px;
-	background-image:url(../1535-radio/icon_micro.png);
+	left:0px;
+	top:10px;
+	background-image:url(../1535-radio/icon-micro.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -796,17 +793,17 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(../1535-radio/icon_feedback.png);
+	background-image:url(../1535-radio/icon-feedback.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 #e39_20 { 
 	opacity:1;
 	width:172px;
-	height:52px;
+	height:62px;
 	position:absolute;
 	left:848px;
-	top:13px;
+	top:0px;
 }
 #e39_21 { 
 	background-color:rgba(104.00000140070915, 114.0000008046627, 166.00000530481339, 1);
@@ -831,6 +828,19 @@
 	letter-spacing:0;
 	line-height:undefined;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .v34_41 {
   width: 210px;
   height: 150px;

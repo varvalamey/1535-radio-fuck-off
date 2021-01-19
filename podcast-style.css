@@ -4,16 +4,15 @@
   }
 #e35_2 { 
 	overflow:hidden;
-	background-color:rgba(255, 255, 255, 1);
 	opacity:1;
 	width:100%;
-	height:100%;
+	height:50px;
 	position:relative;
 }
 #e39_0 { 
 	opacity:1;
 	width:100%;
-	height:50px;
+	height:88px;
 	position: relative;
 	left:0px;
 	top:-14px;
@@ -112,38 +111,29 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(E:/codes/images_podc/eicon_music_1.png);
+	background-image:url(../1535-radio/icon-music.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 #e39_10 { 
-	opacity:1;
-	width:200px;
-	height:62px;
-	position:absolute;
-	left:328px;
-	top:8px;
-	overflow: hidden;
-}
-#e39_11 { 
 	background-color:rgba(104.00000140070915, 114.0000008046627, 166.00000530481339, 1);
 	opacity:1;
 	width:172px;
 	height:70px;
 	position:absolute;
-	left:28px;
+	left: 350px;
 	top:0px;
-	overflow: hidden;
+  overflow: hidden;
 }
-#e39_11:hover { 
+#e39_10:hover { 
 	background-color:rgba(136,195,209,1);
 	opacity:1;
-	width:172px;
+  width:172px;
 	height:70px;
 	position:absolute;
-	left:28px;
+	left:350px;
 	top:0px;
-	overflow: hidden;
+  overflow: hidden;
 }
 #e39_13 { 
 	color:rgba(0, 0, 0, 1);
@@ -152,7 +142,7 @@
 	height:23px;
 	position:absolute;
 	left:72px;
-	top:22px;
+	top:30px;
 	font-family:Times New Roman;
 	text-align:left;
 	font-size:20px;
@@ -161,19 +151,19 @@
 }
 #e39_14 { 
 	opacity:1;
-	width:30px;
+	width:60px;
 	height:62px;
 	position:absolute;
-	left:15px;
-	top:5px;
-	background-image:url(E:/codes/images_podc/eicon_micro_1.png);
+	left:0px;
+	top:10px;
+	background-image:url(../1535-radio/icon-micro.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 #e39_15 { 
 	opacity:1;
-	width:185px;
-	height: 62px;
+	width:172px;
+	height: 70px;
 	position:absolute;
 	left:589px;
 	top:8px;
@@ -183,20 +173,20 @@
 	background-color:rgba(104.00000140070915, 114.0000008046627, 166.00000530481339, 1);
 	opacity:1;
 	width:172px;
-	height:70px;
+	height:62px;
 	position:absolute;
-	left:28px;
-	top:0px;
+	left:589px;
+	top:-6px;
 	overflow: hidden;
 }
 #e39_16:hover { 
 	background-color:rgba(136,195,209,1);
 	opacity:1;
 	width:172px;
-	height:70px;
+	height:62px;
 	position:absolute;
-	left:28px;
-	top:0px;
+	left:589px;
+	top:-6px;
 	overflow: hidden;
 }
 #e39_18 { 
@@ -220,17 +210,17 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(E:/codes/images_podc/eicon_feedback_1.png);
+	background-image:url(../1535-radio/icon-feedback.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 #e39_20 { 
 	opacity:1;
 	width:172px;
-	height:52px;
+	height:62px;
 	position:absolute;
 	left:848px;
-	top:13px;
+	top:0px;
 }
 #e39_21 { 
 	background-color:rgba(104.00000140070915, 114.0000008046627, 166.00000530481339, 1);
@@ -266,7 +256,7 @@
 .background {
 	height: 100%;
 	width: 100%;
-	background-image: url("D:/Documents/1535/сайт радио сейчас/241751440.jpg");
+	background-image: url(../1535-radio/241751440.jpg);
 	opacity: 0.5;
 }
 #e25_0 { 
