@@ -24,7 +24,7 @@
   z-index: 0;
 }
 
-.v14_14 {
+.switch {
   width: 175px;
   height: 84px;
   opacity: 1;
@@ -32,146 +32,45 @@
   top: 250px;
   left: 20px;
   transform: rotate(135deg);
-  overflow: hidden;
   background: none;
-  border:none;
-  outline: none;
 }
-.v14_14:focus {
-  /*width: 98px;
-  height: 128px;
-  opacity: 1;
+.switch input {
   position: absolute;
-  top: 237px;
-  left: 65px;
-  overflow: hidden;
-  */
-  width: 175px;
-  height: 84px;
-  opacity: 1;
-  position: relative;
-  top: 250px;
-  left: 55px;
-  transform: rotate(-135deg);
-  overflow: hidden;
-  background: none;
-  border: none;
-  outline: none;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 0;
+  cursor: pointer;
 }
-.v14_12 {
-  width: 113px;
-  height: 15px;
-  background: rgba(217,114,91,1);
-  opacity: 1;
-  position: absolute;
-  top: 5px;
-  left: 57px;
+
+.switch .v14_12 {
+  width: 300px;
+  height: 300px;
   overflow: hidden;
-}
-.v14_12:focus {
-  width: 113px;
-  height: 15px;
-  background: rgba(217,114,91,1);
-  opacity: 1;
-  position: absolute;
-  top: 5px;
-  left: 57px;
-  transform: rotate(-135deg);
-  overflow: hidden;
-}
-.v14_13 {
-  width: 25px;
-  height: 25px;
-  background: rgba(51,46,46,1);
   opacity: 1;
   position: absolute;
   top: 0px;
-  left: 150px;
-  border-radius: 50%;
-}
-.v14_13:focus {
-  width: 25px;
-  height: 25px;
-  background: rgba(51,46,46,1);
-  opacity: 1;
-  position: absolute;
-  top: 17px;
   left: 0px;
-  border-radius: 50%;
+  z-index: 1;
+  background-image: url("../1535-radio/switch.png");
+  background-position: 140px 30px;
   transform: rotate(-135deg);
+  background-repeat: no-repeat;
 }
-.v28_10::before {
-  content:"ВЫКЛ.";
-  width: 56px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 33px;
-  left: 90px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-  transform: rotate(-135deg);
-}
-.v28_10:focus:after {
-  content: "ВКЛ.";
-  width: 41px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 106px;
-  left: 0px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-/*
-.v34_27 {
-  width: 98px;
-  height: 128px;
-  opacity: 1;
-  position: absolute;
-  top: 237px;
-  left: 65px;
+.switch input:checked + .v14_12  {
+  width: 300px;
+  height: 300px;
   overflow: hidden;
-}
-.v34_28 {
-  width: 113px;
-  height: 15px;
-  background: rgba(217,114,91,1);
   opacity: 1;
   position: absolute;
-  top: 67px;
-  left: 0px;
-  transform: rotate(-135deg);
-  overflow: hidden;
+  top: -70px;
+  left: -180px;
+  z-index: 1;
+  background-image: url(../1535-radio/switch.png);
+  background-position: 140px 30px;
+  transform: rotate(-40deg);
+  background-repeat: no-repeat;
 }
-.v34_29 {
-  width: 25px;
-  height: 25px;
-  background: rgba(51,46,46,1);
-  opacity: 1;
-  position: absolute;
-  top: 17px;
-  left: 0px;
-  border-radius: 50%;
-  transform: rotate(-135deg);
-}
-.v34_30 {
-  width: 41px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 106px;
-  left: 0px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-*/
 .v11_7 {
   width: 751px;
   height: 600px;
