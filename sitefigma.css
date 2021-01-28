@@ -134,46 +134,7 @@
     left: -584px;
   border-radius: 50%;
 }
-.v34_5 input:checked + .v13_15 {
-  width: 210px;
-  height: 210px;
-  background: rgba(242,242,242,1);
-  opacity: 1;
-  position: absolute;
-  top: -172px;
-    left: -584px;
-  border-radius: 50%;
-}
-.v34_4 input:checked + .v13_14 {
-  width: 210px;
-  height: 210px;
-  background: rgba(217,114,91,1);
-  opacity: 1;
-  position: absolute;
-  top: -172px;
-    left: -584px;
-  border-radius: 50%;
-}
-.v34_3 input:checked + .v13_13 {
-  width: 210px;
-  height: 210px;
-  background: rgba(45,144,166,1);
-  opacity: 1;
-  position: absolute;
-  top: -172px;
-  left: -584px;
-  border-radius: 50%;
-}
-.v34_2 input:checked + .v11_10 {
-  width: 210px;
-  height: 210px;
-  background: rgba(104,114,166,1);
-  opacity: 1;
-  position: absolute;
-  top: 136px;
-  left: 137px;
-  border-radius: 50%;
-}
+
 
 
 
@@ -504,15 +465,6 @@
   left: 0px;
   overflow: hidden;
 }
-.v34_2 input {
-  left: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  opacity: 0;
-  cursor: pointer;
-}
 
 
 
@@ -526,7 +478,7 @@
   color: rgba(0,0,0,1);
   position: absolute;
   top: 9px;
-  left: 56px;
+  left: 50px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 18px;
@@ -568,15 +520,6 @@
   left: 0px;
   overflow: hidden;
 }
-.v34_3 input {
-  left: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  opacity: 0;
-  cursor: pointer;
-}
 
 
 
@@ -600,7 +543,7 @@
   color: rgba(0,0,0,1);
   position: absolute;
   top: 8px;
-  left: 58px;
+  left: 54px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 18px;
@@ -646,15 +589,7 @@
   left: 0px;
   overflow: hidden;
 }
-.v34_4 input {
-  left: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  opacity: 0;
-  cursor: pointer;
-}
+
 
 
 
@@ -673,12 +608,12 @@
   color: rgba(0,0,0,1);
   position: absolute;
   top: 7px;
-  left: 57px;
+  left: 40px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 18px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
 }
 .v34_12 {
   width: 182px;
@@ -722,15 +657,7 @@
   left: 0px;
   overflow: hidden;
 }
-.v34_5 input {
-  left: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  opacity: 0;
-  cursor: pointer;
-}
+
 
 
 
@@ -753,7 +680,7 @@
   color: rgba(0,0,0,1);
   position: absolute;
   top: 8px;
-  left: 56px;
+  left: 50px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 18px;
