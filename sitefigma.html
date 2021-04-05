@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <link rel="icon" href="../1535-radio/vinyl-player.png">
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Times+New+Roman&display=swap" rel="stylesheet" />
-        <link href="./sitefigma.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Times+New+Roman&display=swap" >
+        <link href="./sitefigma-style.css" rel="stylesheet" />
         <script type="text/javascript" src="clock.js"></script>
+        <script type="text/javascript" src="play.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <title>Радио 1535</title>
     </head>
@@ -15,10 +17,16 @@
         <div class="v25_6">
 
           <div>
-            <div class="switch">
-              <input type="checkbox">
-              <div class="v14_12"></div>
-            </div>
+            <audio controls=true id="fuck">
+                  <source scr="89.223.122.217:8000/fun.ogg" type="audio/ogg">
+                  your browser suck
+                  </audio>
+              <div class="switch">
+                
+                <input id="11" type="checkbox" onclick="playpause()">
+                <div class="v14_12"></div>
+                
+              </div>
 
             <div class="v11_7">
 
@@ -60,11 +68,11 @@
             <span class="v28_9">жанры</span>
 
             <div class="v34_7">
-
-              <button class="v34_26">
+                  
+              <button class="v34_26" >
                 <div class="v11_10"></div>
                     <div class="v34_2"></div>
-                    <span class="v34_11">радостная</span>
+                    <span class="v34_11" >радостная</span>
               </button>
 
               <button class="v34_14">
@@ -87,7 +95,7 @@
             </div>
             </div>
           </div>
-        </div>
+
 
             <div id="e39_0">
                 <div id="e39_1"></div>
@@ -117,7 +125,6 @@
                   <span id="e39_22">Расписание</span>
                 </div>
 
-              </div>
 
             <div class="v34_41"></div>
             
@@ -145,7 +152,7 @@
           <div class="col-sm-12 col-md-6">
               <h6>О нас</h6>
               <p class="text-justify">This is a project of four students from the 8th V we’re always open for suggestions!</p>
-              </p>
+              
           </div>
 
           <div class="col-xs-6 col-md-3">
